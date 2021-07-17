@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <ul>
+                <li> <a href="index.html"> Home </a></li>
+                <li> <a href="Productos.html"> Productos</a></li>
+                <li> <a href="Contacto.html">Contáctanos</a></li>
+            </ul>
+            
+        </div>
+    </header>
+
+    <div class="logo">
+        <div>
+            <img src="leli.jpg" alt="logo" width="50%" height="50%">
+        </div>
+        <div> 
+            <h1 class="titulo">Leli Mishka Pastelería</h1>
+        </div>
+    </div>
+
+    <div class="background" style="background: url(background.jpg); width: 100%; height: 100%;">
+        
+        <form action="" method="POST">
+            <fieldset>
+                <legend>Contactanos</legend>
+                <ul>
+                    <br>
+                    <li><label for="name">Nombre</label></li>
+                    <input type="text" name="name" placeholder="Nombre">
+                    <br>
+                    <li><label for="name">Apellido</label></li>
+                    <input type="text" name="name" placeholder="Apellido">
+                    <br>
+                    <li> <label for="Mail">Email</label> </li>
+                    <input type="email" name="email" placeholder="email">
+                    <br>
+                    <li><label for="para mi"> <input type="radio" >Para mi</label></li>
+                    <li><label for="para compartir"> <input type="radio">Para Compartir</label></li>
+                    <br>
+                    <label for="name">Productos</label>
+                    <select name="productos" >
+                    <option value="box1">Box de la felicidad Individual</option>
+                    <option value="box2">Box de la felicidad para 2 o mas personas</option>
+                    <option value="box3">Tortas</option>
+                    <option value="box4">Temáticos</option>
+                    </select>
+                    <br>
+                    <br>
+                    <li> <label for="Consulta">Consulta</label> </li>
+                    <textarea name="consulta"  cols="30" rows="10" placeholder="Ingrese su consulta aquí"></textarea>
+                </ul>
+                    <input type="submit" value="Limpiar Formulario">
+                    <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <section>
+            <article><h5> <li> Seguinos en: </li> </h5></article>
+                <!--Acá irían los logos-->
+            <article><h5> <li> Medios de Pago: </li> </h5></article>
+                <!--Acá irían los logos-->
+            <article><!--Logo de Whatsapp--><h5>1511111111</h5></article>
+            <article><!--Logo de mail--><h5>lelimishkapastelería@gmail.com</h5></article>
+            <article> <h4> <a href="Contacto.html"> <li> Contactanos</li></h4></a> </article>
+        </section>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,228 @@
+body{
+    background-color: #FFD6D6;
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(to left, #FDFFB6, #FFD6D6, #FFC6FF);
+}
+
+div.menu{
+    background-color: #FDFFB6;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+    background-image: linear-gradient(to right, #FDFFB6, #FFD6D6, #FFC6FF);
+}
+
+header div ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+header div ul li{
+    padding: 0 2em 0 2em; 
+    align-items: center;
+    text-decoration: none; 
+}
+
+header div ul li a{
+    text-decoration: none;
+}
+
+div.logo{
+    padding: 0 6em 0 10em;
+    display: inline-flex;
+    align-items: center;
+}
+.titulo{
+    color: #660066;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 5px;
+    
+   
+}
+
+div p{
+    color: #ff0066;
+    font-size: 20px;
+    margin-left: 1em;    
+}
+
+.contenedor{
+    padding-bottom: 3em;   
+}
+
+div.background {
+    border-top: 1px solid black;
+    /*padding: 4em 0 4em 0;*/
+}
+.seccion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 4em;
+}
+
+.encabezado{
+    margin-left: 2em;
+    width: 100%;
+}
+
+.combos{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 2em 5em 2em 5em;
+    width: 50%;
+    box-sizing: border-box;
+    align-items: center;
+}
+article.combos img:hover{
+    transform: scale(1.5,1.5);
+    transition: 2s;
+}
+section article a.paracompartir{
+    text-decoration: none;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.tabla{
+    margin-left: 2em;
+}
+div section table{
+    color: #660066;
+    text-align: center;
+    margin-left: 2em;  
+}
+footer section{
+    color: #660066;
+    background-color: #FDFFB6;
+    /*border:solid 1px black;*/
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+}
+section article h4 a{
+    text-decoration: none;
+}
+
+/*fin del index*/
+
+/*Productos*/
+.seccion-productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;  
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 2fr 2fr;
+    align-content: center;
+}
+
+.combos-productos{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 2em 5em 2em 5em;
+    box-sizing: border-box;
+    align-items: center;
+}
+/*Fin de Productos*/
+
+/*Combos para Compartir*/
+div h5{
+    font-size: 2em;
+}
+
+article.box{
+    margin-bottom: 5em;
+}
+
+div article.box{
+    display: inline-flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5em 0 5em;
+    margin-left: 20em;
+}
+
+.bottom{
+    margin-bottom: 5em;
+}
+/*Fin de combos para compartir*/
+
+/*Combos Individuales*/
+
+div h5{
+    font-size: 2em;
+}
+
+div article.paracompartir{
+    display: inline-flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5em 0 5em;
+    margin-left: 20em;
+}
+
+.box{
+    margin-bottom: 5em;
+}
+/*Fin de combos Individuales*/
+    
+/*Combos Temáticos*/
+div h5{
+    font-size: 2em;
+}
+
+div article.BoxCumpleañito{
+    display: inline-flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em;
+    margin-left: 27em;
+}
+
+.box{
+    margin-bottom: 5em;
+}
+/*Fin de Combos Temáticos*/
+
+/*Especial Tortas*/
+div h5{
+    font-size: 2em;
+}
+
+.fc{
+    display: inline-flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em;
+    margin-left: 27em;
+}
+
+.torta{
+    margin-bottom: 5em;
+}
+/*Fin de Especial Tortas*/

@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css-bootstrap/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
     <title>Leli Mishka Pastelería</title>
 </head>
 <body>
@@ -22,7 +24,7 @@
     </header>
     <div class="logo">
         <div>
-            <img src="leli.jpg" alt="logo" width="50%" height="50%">
+            <img src="img/leli.jpg" alt="logo" width="50%" height="50%">
         </div>
         <div> 
             <h1 class="titulo">Leli Mishka Pastelería</h1>
@@ -37,61 +39,65 @@
         <section class="seccion">
             <h1 class="encabezado">Te Ofrecemos:</h1>
         <article class="combos">
-            <img src="box1.png" alt="foto" width="75%" height="75%" >
+            <img src="img/box1.png" alt="foto" width="75%" height="75%" >
             <a class="paracompartir" href="Combos_para_compartir.html">Combos para Compartir</a>
         </article>
         <article class="combos">
-            <img src="box2.png" alt="foto" width="75%" height="75%" >
+            <img src="img/box2.png" alt="foto" width="75%" height="75%" >
             <a class="paracompartir" href="Combos_individuales.html"> Combos Individuales</a>
             
         </article> 
         <article class="combos">
-            <img src="box3.png" alt="foto" width="75%" height="75%" >
+            <img src="img/box3.png" alt="foto" width="75%" height="75%" >
             <a class="paracompartir" href="Combos_Tematicos.html"> Combos Temáticos</a>
             
         </article>
         <article class="combos">
-            <img src="torta2.png" alt="foto" width="75%" height="75%" >
+            <img src="img/torta2.png" alt="foto" width="75%" height="75%" >
             <a class="paracompartir" href="Especial_tortas.html"> Especial Tortas</a>
         </article> 
             
          </section>
     
-        <section class="tabla">
-            <table border="1px">
-                <tr> <!-- inicio de fila-->
-                    <th>  Cantidad de Personas  </th>
-                    <th>  Box  </th>
-                    <th>  Tortas  </th>
-                    <th>  Especiales  </th>
-                    <th>  Contiene:</th>
-                    <th>  Recomendaciones</th>
-                </tr>
-                <tr> <!-- inicio de fila-->
-                    <td> 2 Personas </td>
-                    <td> <strong> X </strong></td>
-                    <td><strong> X </strong></td>
-                    <td><strong> X </strong></td>
-                    <td> Brownies - Budines - Alfajores de Sable - Alfajores de Maicena - Scons de queso</td>
-                    <td> Podes armar este box a tu gusto</td>
-                </tr>
-                <tr> <!-- inicio de fila-->
-                    <td> 4 Personas </td>
-                    <td> <strong> X </strong></td>
-                    <td><strong> X </strong></td>
-                    <td><strong> X </strong></td>
-                    <td> Brownies - Budines - Alfajores de Sable - Alfajores de Maicena - Scons de queso</td>
-                    <td> Podes armar este box a tu gusto</td>
-                </tr>
-                <tr> <!-- inicio de fila-->
-                    <td> Personalizado </td>
-                    <td> <strong> X </strong></td>
-                    <td><strong> X </strong></td>
-                    <td><strong> X </strong></td>
-                    <td> Brownies - Budines - Alfajores de Sable - Alfajores de Maicena - Scons de queso</td>
-                    <td> Podes armar este box a tu gusto</td>
-                </tr>
-            </table>
+        <section class="container">
+            <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">Cantidad de Personas</th>
+                    <th scope="col">Box</th>
+                    <th scope="col">Tortas</th>
+                    <th scope="col">Especiales</th>
+                    <th scope="col">Contiene</th>
+                    <th scope="col">Recomendaciones</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">2 Personas</th>
+                    <th scope="row">X</th>
+                    <th scope="row">X</th>
+                    <th scope="row">X</th>
+                    <th scope="row">Brownies - Budines - Alfajores de Sable - Alfajores de Maicena - Scons de queso</th>
+                    <th scope="row">Podes armar este box a tu gusto</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">4 Personas</th>
+                    <th scope="row">X</th>
+                    <th scope="row">X</th>
+                    <th scope="row">X</th>
+                    <th scope="row">Brownies - Budines - Alfajores de Sable - Alfajores de Maicena - Scons de queso</th>
+                    <th scope="row">Podes armar este box a tu gusto</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">Personalizado</th>
+                    <th scope="row">X</th>
+                    <th scope="row">X</th>
+                    <th scope="row">X</th>
+                    <th scope="row">Brownies - Budines - Alfajores de Sable - Alfajores de Maicena - Scons de queso</th>
+                    <th scope="row">Podes armar este box a tu gusto</th>
+                  </tr>
+                </tbody>
+              </table>
         </section>
     </div>
 </div>      

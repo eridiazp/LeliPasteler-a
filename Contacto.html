@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="contacto.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css-bootstrap/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
     <title>Contacto</title>
 </head>
 <body>
@@ -24,47 +24,52 @@
 
     <div class="logo">
         <div>
-            <img src="leli.jpg" alt="logo" width="50%" height="50%">
+            <img src="img/leli.jpg" alt="logo" width="50%" height="50%">
         </div>
         <div> 
             <h1 class="titulo">Leli Mishka Pastelería</h1>
         </div>
     </div>
 
-    <div class="background" style="background: url(background.jpg); width: 100%; height: 100%;">
+    <div class="background container mt-4 mb-4" style="background: url(background.jpg); width: 100%; height: 100%;">
         
         <form action="" method="POST">
-            <fieldset>
                 <legend>Contactanos</legend>
-                <ul>
-                    <br>
-                    <li><label for="name">Nombre</label></li>
-                    <input type="text" name="name" placeholder="Nombre">
-                    <br>
-                    <li><label for="name">Apellido</label></li>
-                    <input type="text" name="name" placeholder="Apellido">
-                    <br>
-                    <li> <label for="Mail">Email</label> </li>
-                    <input type="email" name="email" placeholder="email">
-                    <br>
-                    <li><label for="para mi"> <input type="radio" >Para mi</label></li>
-                    <li><label for="para compartir"> <input type="radio">Para Compartir</label></li>
-                    <br>
-                    <label for="name">Productos</label>
-                    <select name="productos" >
-                    <option value="box1">Box de la felicidad Individual</option>
-                    <option value="box2">Box de la felicidad para 2 o mas personas</option>
-                    <option value="box3">Tortas</option>
-                    <option value="box4">Temáticos</option>
-                    </select>
-                    <br>
-                    <br>
-                    <li> <label for="Consulta">Consulta</label> </li>
-                    <textarea name="consulta"  cols="30" rows="10" placeholder="Ingrese su consulta aquí"></textarea>
-                </ul>
-                    <input type="submit" value="Limpiar Formulario">
-                    <input type="submit" value="Enviar">
-            </fieldset>
+                    <div class="form-group">
+                        <label for="nombreyapellido">Nombre y Apellido</label>
+                        <input type="name" class="form-control" id="nombreyapellido" placeholder="Nombre y Apellido">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="Individual" value="option1" checked>
+                        <label class="form-check-label" for="Individual">
+                          Individual
+                        </label>
+                    </div>
+                        <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="paracompartir" value="option2">
+                        <label class="form-check-label" for="paracompartir">
+                          Para Compartir
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Productos</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Box de la felicidad Individua</option>
+                          <option>Box de la felicidad para 2 o mas personas</option>
+                          <option>Tortas</option>
+                          <option>Temáticos</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Consulta</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="reset" class="btn btn-outline-danger">Limpiar Formulario</button>
+                    <button type="submit" class="btn btn-outline-warning">Enviar</button>
         </form>
     </div>
 

@@ -79,6 +79,8 @@ div.background {
     box-sizing: border-box;
     align-items: center;
 }
+
+
 article.combos img:hover{
     transform: scale(1.5,1.5);
     transition: 2s;
@@ -89,13 +91,9 @@ section article a.paracompartir{
     font-size: 1.5em;
 }
 
-.tabla{
-    margin-left: 2em;
-}
 div section table{
     color: #660066;
-    text-align: center;
-    margin-left: 2em;  
+    text-align: center; 
 }
 footer section{
     color: #660066;
